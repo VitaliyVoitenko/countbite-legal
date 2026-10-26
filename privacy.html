@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy Policy · CountBite</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><div class="wrap"><strong>CountBite</strong><nav aria-label="Legal pages"><a href="privacy.html" aria-current="page">Privacy</a><a href="terms.html">Terms</a></nav></div></header>
+<main>
+  <h1>Privacy Policy</h1><p class="updated">Updated October 26, 2026</p>
+  <p>CountBite helps you record meals, estimate nutrition, and track progress. This policy explains what happens to data in the iOS app and its AI features. Contact: <a href="mailto:vetal925@gmail.com">vetal925@gmail.com</a>.</p>
+  <h2>Data kept on your device</h2>
+  <p>Profile details you enter, such as age, height, weight, goals and dietary preferences, plus meal history and saved recipes, are stored in the app's local database. CountBite does not currently sync this diary to its own server. Device backups may contain this local data according to your device settings.</p>
+  <h2>Photo and voice meal recognition</h2>
+  <p>When you choose to scan a meal photo or record a meal by voice, the app sends that image or recording, your requested language, a Firebase anonymous authentication token, and an App Check token over HTTPS to the CountBite server. The server forwards the image or recording with instructions to Google's Gemini API, then returns a suggested dish, ingredients, and, for voice, a transcript. Review and edit AI estimates before using them.</p>
+  <p>The CountBite API does not save raw photos or recordings in its application database or print them in application logs. Its web-server access logs may contain IP address, request path, time, and status. Quota counters use hashed account and IP identifiers and expire automatically. Account-deletion requests temporarily store the Firebase user ID and request time until fulfilled. A random receipt lets the app check completion; completed receipts expire after 45 days. Google may process data it receives under its own terms and privacy practices.</p>
+  <h2>Firebase and analytics</h2>
+  <p>AI requests use a temporary anonymous Firebase account, without asking for your name or email. Firebase App Check verifies that requests come from the app. Firebase Remote Config supplies app configuration and food-catalog data. Firebase Analytics may collect app interaction and device information to help us understand app usage and reliability. A build configured for Amplitude may also send app interaction events; the first free iOS build does not configure Amplitude.</p>
+  <h2>Barcode lookup</h2>
+  <p>When you scan a barcode, the app may request product information from Open Food Facts. The barcode and ordinary network information are sent to that service for the lookup.</p>
+  <h2>Why data is used and how long it remains</h2>
+  <p>We use the information above to provide the features you choose, protect the AI service from abuse, maintain reliability, and understand usage. Local diary data remains until you remove it or uninstall the app. Short-lived quota counters expire after at most two days; operational access logs and Firebase/analytics data follow their respective retention settings. We do not use meal photos or voice recordings for advertising.</p>
+  <h2>Your choices</h2>
+  <p>You can use manual meal entry without granting camera or microphone access. You can revoke those permissions in iOS Settings. Use Profile → Delete account and app data to erase your local diary and request deletion of any anonymous Firebase account created for AI features. We process account-deletion requests manually within 30 days. The app shows confirmation after processing when you next open it while its receipt remains stored. If no Firebase account exists, local data is erased immediately. For questions or access requests, contact <a href="mailto:vetal925@gmail.com">vetal925@gmail.com</a>. If CountBite changes how it handles data, this policy will be updated.</p>
+</main>
+<footer>CountBite · <a href="terms.html">Terms of Use</a></footer>
+</body></html>
